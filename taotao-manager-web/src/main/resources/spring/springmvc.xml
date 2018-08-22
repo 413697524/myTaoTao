@@ -21,7 +21,9 @@
     <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
     <mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
 
-    <mvc:resources location="/layui-v2.3.0/layui/css/" mapping="/css/**"/>
+    <!--配置前端静态资源映射-->
+    <mvc:resources location="/layui-v2.3.0/layui/css/" mapping="/layui/css/**"/>
+    <mvc:resources location="/layui-v2.3.0/layui/" mapping="/layui/js/**"/>
     <!-- 定义文件上传解析器 -->
     <bean id="multipartResolver"
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver">

@@ -8,25 +8,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <link rel="stylesheet" href="../../layui-v2.3.0/layui/css/layui.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/layui-v2.3.0/layui/css/layui.css">
-    <%--<link rel="stylesheet" href="../../layui-v2.3.0/layui/css/index.css">--%>
-    <%--<script src="../js/jquery-3.2.0.js"></script>--%>
-    <%--<script src="../js/service.js"></script>--%>
-
-
+    <title>欢迎来到我的音乐的士!!!</title>
+    <link rel="stylesheet" type="text/css" href="layui/css/layui.css"/>
 
 </head>
-<body>
-
-<script>
-
-</script>
-
-<div class="header-warapper">
-    <p>fnisf</p>
+<body class="layui-layout-body">
+<div class="layui-tab-item">
+    <div class="layui-upload-drag" id="uploadDemo">
+        <i class="layui-icon"></i>
+        <p>点击上传，或将文件拖拽到此处</p>
+    </div>
 </div>
-<div body-wrapper></div>
+
+<script src="layui/js/layui.js"></script>
+<script src="js/index.js"></script>
+
+
+
 </body>
 </html>
