@@ -18,4 +18,10 @@ public class PageController {
     public String showPage(@PathVariable String page) {
         return page;
     }
+
+    @RequestMapping("/")
+    public String showIndex() {
+        return "index";
+    }
+
 }
