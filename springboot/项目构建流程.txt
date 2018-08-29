@@ -1,0 +1,12 @@
+view层：freemaker解析html layui作为页面框架，
+model层：
+
+dao: druid
+pojo:
+service:
+controller层：spring
+
+
+1：配置视图解析器
+2：配置mapper的地址
+3：
